@@ -1,4 +1,4 @@
-# memoization 방
+# tabulation 방식
 def fibo(N, num):
   for i in range(2, N+1):
     num[i] = num[i-1] + num[i-2] # 점화식 세우기
